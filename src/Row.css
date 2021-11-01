@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* HIDE TILE */
+
+.hide {
+  display: none;
+}
+.row-body {
+  background-image: linear-gradient(to right, #000000, #161616, #2c394b);
+  background-repeat: no-repeat;
+  overflow: hidden;
+  padding: 2% 5%;
+  text-align: center;
+}
+.col {
+  text-align: left;
+}
+.card-text,
+.card-title {
+  color: #000000;
+}
+.heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 5rem;
+
+  border-bottom: 1px solid white;
+  display: inline-block;
+  margin: 0 auto 5% auto;
+}

@@ -1,0 +1,24 @@
+  return (
+    <div className="row-body">
+      <h2 id={title}>{title}</h2>
+      <div className="row-container">
+        {newsTitle.map((mov) => (
+
+            <div className="card">
+                <img
+                className="card-img-top"
+                src={mov.urlToImage}
+                alt={mov.source.name}
+                /> 
+                <div className="card-body">
+                    <h5 className="card-title">{mov.title}</h5>
+                    <p className="card-text"> {mov.content
+                    ? truncateString(mov.content, 500)
+                    : "Tap to know more"}</p>
+                    <a href={mov.url ? mov.url : ""} className="btn btn-primary">Go somewhere</a>    
+                </div> 
+            </div>          
+        ))}
+      </div>
+    </div>
+  );

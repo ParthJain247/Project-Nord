@@ -1,0 +1,18 @@
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+}
+.vid {
+  position: relative;
+}
+.vid_h1 {
+  position: absolute;
+  color: aliceblue;
+  top: 60%;
+  left: 18%;
+  font-size: 6rem;
+  border-bottom: none;
+
+  font-weight: 600;
+}

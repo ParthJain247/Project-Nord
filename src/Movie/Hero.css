@@ -1,0 +1,31 @@
+.hero {
+  color: white;
+  object-fit: contain;
+  height: 100vh;
+}
+.hero-contents {
+  margin-left: 5%;
+  padding-top: 10%;
+  height: 30%;
+}
+
+.hero-contents h1 {
+  font-size: 7rem;
+  padding-bottom: 5%;
+  border-bottom: none;
+  color: white;
+}
+.hero-contents p {
+  width: 40%;
+  font-size: 1.5rem;
+  margin-left: 2%;
+  padding: 0.8%;
+  background-color: rgba(0, 0, 0, 0.281);
+  color: white;
+}
+.logo {
+  position: absolute;
+  top: 0%;
+  left: 0.1%;
+  width: 10%;
+}

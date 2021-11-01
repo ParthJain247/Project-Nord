@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  color: aliceblue;
+  margin: 0%;
+  padding: 0%;
+}
+.logo {
+  position: absolute;
+  width: 40%;
+}
+.loading-text {
+  color: #ffffff;
+  font-size: 100px;
+  position: absolute;
+  left: 850px;
+  top: 400px;
+  z-index: 2;
+}
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+.container-body {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #fefbf3;
+  background-image: linear-gradient(#fefbf3, #f1f7e7, #fdfce5, white, #222831);
+  filter: blur(0px);
+  z-index: 1;
+}
+
+.container {
+  display: flex;
+
+  width: 100vw;
+}
+
+.pannel {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 90vh;
+  border-radius: 100px;
+  cursor: pointer;
+  flex: 0.5;
+  margin: 10px;
+  text-align: center;
+  position: relative;
+  transition: flex 0.7s ease-in;
+}
+.pannel h3 {
+  font-style: italic;
+  font: bold;
+  font-size: 4.5rem;
+  position: absolute;
+  bottom: 30px;
+  left: 35%;
+  margin: 0;
+  opacity: 0;
+  animation: mymove 0.1s infinite;
+  font-family: "Permanent Marker", cursive;
+  font-weight: bold;
+}
+
+.pannel.active {
+  flex: 5;
+}
+
+.pannel.active h3 {
+  opacity: 1;
+  transition: opacity 0.7s ease-in 0.5s;
+}
+
+@media (max-width: 824px) {
+  .container {
+    width: 100vw;
+  }
+  .pannel {
+    flex: 0.8;
+  }
+}
+
+@keyframes mymove {
+  from {
+    color: #fefbf3;
+  }
+  to {
+    color: #faeee0;
+  }
+}
+.to-do {
+  top: 5%;
+}
+.to-do,
+.clock,
+.brain {
+  position: absolute;
+  width: 10%;
+  height: 25%;
+  right: 2%;
+}
+
+.clock {
+  top: 35%;
+}
+.brain {
+  top: 65%;
+}

@@ -1,0 +1,52 @@
+.e-schedule .e-month-view .e-work-days,
+.e-schedule .e-month-agenda-view .e-work-days {
+  background-color: #000000;
+}
+.e-schedule .e-schedule-toolbar .e-toolbar-items {
+  background: #000000;
+}
+.e-schedule .e-month-view .e-date-header-wrap table td,
+.e-schedule .e-month-agenda-view .e-date-header-wrap table td {
+  background-color: #444444;
+  border-color: rgba(0, 0, 0, 0.12);
+  border-style: solid;
+  border-width: 0 0 1px 1px;
+  color: rgba(0, 0, 0, 0.87);
+  text-align: left;
+}
+.e-schedule .e-month-view .e-work-cells,
+.e-schedule .e-month-agenda-view .e-work-cells {
+  background-color: #444444;
+  border-color: rgba(0, 0, 0, 0.12);
+  border-style: solid;
+  border-width: 0 0 1px 1px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.e-schedule .e-vertical-view .e-date-header-wrap table tbody td {
+  background-color: #444444;
+  border-color: rgba(0, 0, 0, 0.12);
+  border-style: solid;
+  border-width: 0 0 1px 1px;
+  color: rgba(0, 0, 0, 0.87);
+  text-align: left;
+}
+.e-schedule .e-vertical-view .e-left-indent-wrap table tbody td {
+  background-color: #444444;
+  border-color: rgba(0, 0, 0, 0.12);
+  border-style: solid;
+  border-width: 0 1px 1px 0;
+  color: rgba(0, 0, 0, 0.87);
+}
+.e-schedule .e-vertical-view .e-work-cells {
+  background-color: #444444;
+  border-color: rgba(0, 0, 0, 0.12);
+  border-style: solid;
+  border-width: 0 0 1px 1px;
+}
+.e-schedule .e-vertical-view .e-time-cells-wrap table td {
+  background-color: #444444;
+  border-color: rgba(0, 0, 0, 0.12);
+  border-style: solid;
+  border-width: 0 1px 1px 0;
+  color: rgba(0, 0, 0, 0.54);
+}

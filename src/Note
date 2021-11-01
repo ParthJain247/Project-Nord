@@ -1,0 +1,39 @@
+#########################################################################################
+PAGE 1 The 5 Tile Page
+uses Container.js and Container.css
+
+#########################################################################################
+
+PAGE 2 The News App
+uses Navigation.js Navigation.css request.js Row.js Row.css and RowMix.js
+
+#########################################################################################
+
+DEPENDENCIES
+
+React Router Dom + Axios + Bootstrap Css Style Sheet has been used (in the index)
+
+#########################################################################################
+
+UseState is used for dynamic control
+Useeffect is used for Dynamic Js changes
+
+#########################################################################################
+Axios SAMPLE CODE on Row Component
+
+function Row({ title, fetchUrl }) {
+const [newsTitle, setNewsTitle] = useState([]);
+useEffect(() => {
+async function fetchData() {
+const request = await axios.get(fetchUrl);
+
+      setNewsTitle(request.data.articles);
+      return request;
+    }
+    fetchData();
+
+}, [fetchUrl]);
+
+Here fetch URL is obtained from request.js axios simply gets the data provided by the API
+
+#########################################################################################
